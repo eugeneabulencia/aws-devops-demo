@@ -1,6 +1,8 @@
 
-from app import add_numbers
+def add_numbers(a, b):
+    return a + b
 
 
-def test_add_numbers():
-    assert add_numbers(5, 3) == 8
+if __name__ == "__main__":
+    print("AWS DevOps CI/CD Demo")
+    print("Result:", add_numbers(5, 3))
